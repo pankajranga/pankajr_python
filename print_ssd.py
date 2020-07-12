@@ -37,7 +37,7 @@ while True:
     try:
         a = input("Enter number: ")
     except EOFError:
-        print ("EOFError")
+        print ("EOFError!")
         break
 
 prnt_ssd(a)

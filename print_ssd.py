@@ -35,7 +35,7 @@ def prnt_ssd(num_to_print):
 			
 while True:
     try:
-        a = input()
+        a = input("Enter number: ")
     except EOFError:
         print ("EOFError")
         break

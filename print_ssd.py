@@ -33,7 +33,12 @@ def prnt_ssd(num_to_print):
 				print (''.join(list9[i]),end="  ",sep=" ")
 		print()
 			
-x = input ("Enter number ")
+while True:
+    try:
+        a = input()
+    except EOFError:
+        print ("EOFError")
+        break
 
-prnt_ssd(x)
+prnt_ssd(a)
 

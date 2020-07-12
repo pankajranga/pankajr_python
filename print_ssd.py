@@ -33,4 +33,7 @@ def prnt_ssd(num_to_print):
 				print (''.join(list9[i]),end="  ",sep=" ")
 		print()
 			
-prnt_ssd(input("Enter number: "))
+x = input ("Enter number ")
+
+prnt_ssd(x)
+

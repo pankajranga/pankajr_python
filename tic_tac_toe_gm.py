@@ -22,6 +22,8 @@ win_pos_dict = {
 8: {'pos':[2,4,6],'fill_count':0}
 }
 
+grid_size = 3
+
 for  x in range (grid_size * grid_size):
 	list1.append(x + 1)
 
@@ -72,7 +74,6 @@ if (play_w_comp == 'Y'):
 
 	first_play = input ("Press 'C' if you want computer to play first => ").upper()
 
-grid_size = 3
 
 
 # Function to print the game grid
